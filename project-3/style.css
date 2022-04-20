@@ -1,17 +1,63 @@
 body {
-    background-color: lime;
+    background-color: #f2f2e7;
 }
 
-.smaller {
-    height: 200px;
-    width: 200px;
-
-    transition: width 2s, height 2s;
+.title {
+    font-family: "neue-haas-grotesk-display";
+    color: slategrey;
+    font-size: 50px;
+    position: absolute;
+    top: 75px;
+    left: 100px;
 }
 
-.key{
-    width: 400px;
-    height: 400px;
+.descript {
+    font-family: "neue-haas-grotesk-display";
+    color: lightslategrey;
+    font-size: 20px;
+    font-weight: 300px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.p1 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: whitesmoke;
+    position: absolute;
+    left: 600px;
+    top: 50px;
+    width: 300px;
+    background-color: slategray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.p2 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: whitesmoke;
+    position: absolute;
+    left: 1000px;
+    width: 300px;
+    background-color: slategray;
+    padding: 20px;
+    border-radius: 10px;
+}
+.nbcvideo{
+   position:absolute;
+    align-content: center;
+    top: 400px;
+}
+/*
+.rectangle {
+  width: window;
+  height: 400px;;
+    top: 100px;
+   background-color: white
  
-    transition: width 2s, height 2s;
 }
+  */
