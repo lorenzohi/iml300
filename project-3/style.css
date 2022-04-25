@@ -1,7 +1,18 @@
 body {
+    margin: 0px;
     background-color: #f2f2e7;
+
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+   grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+/*
 .title {
     font-family: "neue-haas-grotesk-display";
     color: slategrey;
@@ -47,17 +58,21 @@ body {
     padding: 20px;
     border-radius: 10px;
 }
-.nbcvideo{
-   position:absolute;
+
+.nbcvideo {
+    position: absolute;
     align-content: center;
     top: 400px;
 }
-/*
-.rectangle {
-  width: window;
-  height: 400px;;
-    top: 100px;
-   background-color: white
- 
+
+
+.pages {
+    font-family: park-lane, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    top: 500px;
 }
-  */
+*/
