@@ -1,6 +1,5 @@
 body {
     margin: 0px;
-    background-color: #f2f2e7;
 
 }
 
@@ -8,23 +7,112 @@ body {
     width: 100vw;
     height: 100vh;
     display: grid;
-   grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
-/*
+.colorp1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #f2ede7;
+    border: 7px solid #8c9fcf;
+}
+
+.colorp1s2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(asset/giphy.gif)
+
+}
+
+.pls2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+    padding-top: 170px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+
+}
+
+.p2tag {
+    color: #8c9fcf;
+    filter: blur(2px);
+    text-decoration: none;
+}
+
+.p2tag:hover {
+      color: white;
+    text-decoration: none; 
+    filter: none;
+}
+
+.p3tag {
+    color: #8c9fcf;
+    text-decoration: none;
+        filter: blur(2px);
+    padding-left: 30px;
+}
+.p3tag:hover {
+      color: white;
+    text-decoration: none;
+        filter: none;
+}
+.p4tag {
+    color: #8c9fcf;
+    text-decoration: none;
+        filter: blur(2px);
+    padding-left: 30px;
+}
+.p4tag:hover {
+      color: white;
+    text-decoration: none;  
+        filter: none;
+}
+.p5tag {
+    color: #8c9fcf;
+    text-decoration: none;
+        filter: blur(2px);
+    padding-left: 30px;
+}
+.p5tag:hover {
+      color: white;
+    text-decoration: none;
+        filter: none;
+}
+.icons {
+    position: absolute;
+    top: 210px;
+    left: 100px;
+}
+
+.icons1 {
+    position: relative;
+    left: 190px;
+    bottom: 22px;
+}
+
+.icons2 {
+    position: relative;
+    left: 190px;
+    bottom: 22px;
+}
+
 .title {
     font-family: "neue-haas-grotesk-display";
-    color: slategrey;
+    color: #5d6b8f;
     font-size: 50px;
     position: absolute;
     top: 75px;
     left: 100px;
+
 }
 
 .descript {
     font-family: "neue-haas-grotesk-display";
-    color: lightslategrey;
+    color: #8c9fcf;
     font-size: 20px;
     font-weight: 300px;
     position: absolute;
@@ -41,7 +129,7 @@ body {
     left: 600px;
     top: 50px;
     width: 300px;
-    background-color: slategray;
+    background-color: #5d6b8f;
     padding: 20px;
     border-radius: 10px;
 }
@@ -54,25 +142,67 @@ body {
     position: absolute;
     left: 1000px;
     width: 300px;
-    background-color: slategray;
+    background-color: #5d6b8f;
     padding: 20px;
     border-radius: 10px;
 }
 
 .nbcvideo {
     position: absolute;
-    align-content: center;
-    top: 400px;
+    top: 60px;
+    left: 975px
 }
 
+.p2color {
+    background-color: #f2ede7;
+}
 
-.pages {
-    font-family: park-lane, serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 50px;
-    color: white;
-    position: relative;
-    top: 500px;
+/*
+.p5sketch{
+  height: 100%;
+    width: 100%;
 }
 */
+.aboutartist1 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: whitesmoke;
+    position: relative;
+    left: 175px;
+    width: 400px;
+    top: 350px;
+    background-color: #5d6b8f;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.p3 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    width: 400px;
+    font-style: normal;
+    color: whitesmoke;
+    position: absolute;
+    left: 700px;
+    top: 50px;
+    background-color: #5d6b8f;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.webimg {
+    position: absolute;
+    left: 750px;
+    top: 400px;
+    border-radius: 30px;
+    border-color: aliceblue;
+    padding: 50px;
+}
+.burning{
+  color: white;
+  background: black;
+  letter-spacing: em;
+  font-weight: bold;
+}
