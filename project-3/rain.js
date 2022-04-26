@@ -2,7 +2,7 @@ let bubbles = [];
 let mySound, bloodImg, play;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, 1516);
 
   for (let i = 0; i < 100; i++) {
     bubbles[i] = new Bubble(300, 200, 10);

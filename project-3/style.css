@@ -200,9 +200,23 @@ body {
     border-color: aliceblue;
     padding: 50px;
 }
-.burning{
-  color: white;
-  background: black;
-  letter-spacing: em;
-  font-weight: bold;
+.homebutton{
+    font-family: "neue-haas-grotesk-display";
+    color: #8c9fcf;
+    font-size: 20px;
+    font-weight: 300px;
+    position: sticky;
+top: 0;
+}
+.indexbutton{
+ position: absolute;
+    left: 10px;
+    top: 5px;
+     text-decoration: none;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
