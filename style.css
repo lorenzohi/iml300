@@ -1,0 +1,134 @@
+
+.name {
+    font-family: ff-folk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #ee653a;
+    position: absolute;
+       background-color: white;
+    padding-bottom: 30px;
+    padding-left: 300px;
+    padding-right: 25px;
+    border-radius: 15px;
+overflow: hidden;
+}
+
+.named {
+    font-family: ff-folk, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: gainsboro;
+    position: absolute;
+    left: 120px;
+    top: 110px;
+}
+
+body {
+    background-color: cornsilk;
+    font-family: ff-folk-rough, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.heading {
+    font-family: ff-folk-rough, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.descript {
+    position: absolute;
+    left: 800px;
+    top: 180px;
+    font-family: ff-folk-rough, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #cadcb4;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+
+.descript2 {
+    position: relative;
+}
+
+.presentation {
+    position: absolute;
+    background-color: lightblue;
+    color: white;
+    left: 150px;
+    top: 290px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.project {
+    position: absolute;
+    left: 760px;
+    top: 530px;
+    background-color: #eeaaba;
+    color: white;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+.link{
+ text-decoration: none;  
+    color:slategray;
+}
+.link:hover{
+    color:black;
+}
+.exercise{
+    position: absolute;
+    top: 1000px;
+    left: 80px;
+    background:#df3021;
+    color: white;
+        border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    
+}
+.thoughts{
+    position: relative;
+   top: 1700px;
+    width: 1000px;
+    left: 300px;
+        background-color: darkseagreen;
+    color: white;
+          border-radius: 20px;
+    padding: 20px;
+}
+.image1{
+width: 100%;
+    position: absolute;
+    z-index: -1;
+        top:170px;
+}
+.image2{
+width: 100%;  
+     position: absolute;
+    z-index: -1;
+    top: 1800px;
+}
+.image3{
+width: 40%;  
+     position: absolute;
+    z-index: -1;
+    top: 1300px;
+    left: 900px;
+}
+.image4{
+width: 50%;  
+     position: absolute;
+    z-index: -1;
+    top: 3800px;
+}
