@@ -99,7 +99,7 @@ body {
 }
 .thoughts{
     position: relative;
-   top: 1700px;
+   top: 2500px;
     width: 1000px;
     left: 300px;
         background-color: darkseagreen;
@@ -127,8 +127,12 @@ width: 40%;
     left: 900px;
 }
 .image4{
-width: 50%;  
+width: 100%;  
      position: absolute;
     z-index: -1;
     top: 3800px;
+}
+.p5{
+    width: 400px;
+    height:400px;
 }
